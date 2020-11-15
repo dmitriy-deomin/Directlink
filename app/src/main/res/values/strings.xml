@@ -2,9 +2,7 @@
     <string name="app_name">Direct link</string>
     <string name="the_link_from_the_clipboard">the link from the clipboard</string>
     <string name="create">Create</string>
-    <string name="copy">Copy</string>
-    <string name="share">Share</string>
     <string name="text_error_nepodhodit_link">the link doesn\'t match the format</string>
     <string name="abaut">Abaut</string>
-    <string name="direct_link_dropbox">Direct link dropbox 0.2</string>
+    <string name="direct_link_dropbox">Direct link dropbox 0.2\n\n donat sb 79027228625 \n\n https://t.me/DmitriyDeomin</string>
 </resources>

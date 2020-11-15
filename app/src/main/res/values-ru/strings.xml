@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Direct link</string>
+    <string name="the_link_from_the_clipboard">ссылка из буфера обмена</string>
+    <string name="create">Создать</string>
+    <string name="copy">Копировать</string>
+    <string name="share">Поделиться</string>
+    <string name="text_error_nepodhodit_link">ссылка не соответствует формату</string>
+    <string name="abaut">О программе</string>
+    <string name="direct_link_dropbox">Direct link dropbox 0.2</string>
+</resources>

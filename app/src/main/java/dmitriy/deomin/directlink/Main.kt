@@ -5,7 +5,6 @@ import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.animation.AnimationUtils
 import android.widget.Button
@@ -59,6 +58,17 @@ class Main : Activity() {
             }
 
 
+        }
+        //btn_paste
+        (findViewById<Button>(R.id.btn_paste)).setOnClickListener {
+            it.startAnimation(AnimationUtils.loadAnimation(this, R.anim.myalpha))
+
+            // Paste clipboard text to edit text
+            val clipData: ClipData? = clipboard.primaryClip
+            clipData?.apply {
+                val textToPaste: String = this.getItemAt(0).text.toString().trim()
+                pole.setText(textToPaste)
+            }
         }
         //btn_copy
         (findViewById<Button>(R.id.btn_copy)).setOnClickListener {

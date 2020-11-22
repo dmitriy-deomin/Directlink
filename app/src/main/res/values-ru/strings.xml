@@ -5,5 +5,7 @@
     <string name="create">Создать</string>
     <string name="text_error_nepodhodit_link">ссылка не соответствует формату</string>
     <string name="abaut">О программе</string>
-    <string name="direct_link_dropbox">Direct link dropbox 0.2\n\n donat sb 79027228625 \n\n https://t.me/DmitriyDeomin</string>
+    <string name="direct_link_dropbox">Direct link dropbox 0.3\n\n donat sb 79027228625 \n\n https://t.me/DmitriyDeomin</string>
+    <string name="ok">Готово</string>
+    <string name="copy_bufer_ok">Скопировано в буфер</string>
 </resources>

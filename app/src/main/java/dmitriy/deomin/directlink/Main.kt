@@ -53,6 +53,7 @@ class Main : Activity() {
 
                 //меняем в поле
                 pole.setText(link)
+                Toast.makeText(this, R.string.ok, Toast.LENGTH_SHORT).show()
             } else {
                 Toast.makeText(this, R.string.text_error_nepodhodit_link, Toast.LENGTH_SHORT).show()
             }
@@ -78,6 +79,7 @@ class Main : Activity() {
                 "direct link dropbox", pole.text.toString()
             )
             clipboard.setPrimaryClip(clip)
+            Toast.makeText(this, R.string.copy_bufer_ok, Toast.LENGTH_SHORT).show()
         }
         //btn_share
         (findViewById<Button>(R.id.btn_share)).setOnClickListener {
